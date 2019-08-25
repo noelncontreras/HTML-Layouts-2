@@ -1,0 +1,138 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png');
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+}
+nav {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.logo > img, h1 {
+    cursor: pointer;    
+}
+#owl-image1 {
+    height: 10vh;
+}
+#middle-buttons {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 50px;
+}
+#middle-buttons > h1 {
+    cursor: pointer;
+}
+.sub-button {
+    width: 30vw;
+    height: 20vh;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe {
+    width: 15vw;
+    height:8vh;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main-body {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-box {
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#owl-image2 {
+    width: 10vh;
+    height: 10vh;
+    margin: 75px 50px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.three-words {
+    font-size: 50px;
+}
+p {
+    font-size: 22px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.bottom-box {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#column-word {
+    width: 10vw;
+    height: 10vh;
+    font-size: 12px;
+    transform: rotate(-90deg);
+}
+.middle-box {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+#explore-button {
+    width: 15vw;
+    height: 6vh;
+    border-radius: 50px;
+    color: blue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.middle-box > h6 {
+    font-size: 15px;
+}
+.icons {
+    height: 20vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#twitter-button, #facebook-button, #linkedin-button, #link-button {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
